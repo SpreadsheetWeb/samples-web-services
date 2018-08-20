@@ -6,5 +6,5 @@ The *Test Calculator.xlsx* file is a simple mortgage calculator. When uploaded t
 
 To see it in action you need to run the client application which would call the Web Service and get some response.
 
-For detailed information of how to create and call a SpreadsheetWeb Web Service by using this sample - please refer to the [README.md](../../..) located under the root of this repository.
+For detailed information of how to create and call a SpreadsheetWeb Web Service by using this sample - please refer to the [README.md](../../../README.md) located under the root of this repository.
 
