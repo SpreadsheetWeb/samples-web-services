@@ -1,0 +1,82 @@
+{
+  "ApplicationKey": "c62c0077b7ce4ae3921bad345eaf4d5a",
+  "Inputs": [
+    {
+      "Ref": "HomeValue",
+      "Value": [
+        [
+          {
+            "Value": "500000"
+          }
+        ]
+      ]
+    },
+    {
+      "Ref": "LoanAmount",
+      "Value": [
+        [
+          {
+            "Value": "450000"
+          }
+        ]
+      ]
+    },
+    {
+      "Ref": "InterestRate",
+      "Value": [
+        [
+          {
+            "Value": "4"
+          }
+        ]
+      ]
+    },
+    {
+      "Ref": "LoanTerm",
+      "Value": [
+        [
+          {
+            "Value": "30"
+          }
+        ]
+      ]
+    },
+    {
+      "Ref": "TextRate",
+      "Value": [
+        [
+          {
+            "Value": "1.25"
+          }
+        ]
+      ]
+    }
+  ],
+  "Outputs": [
+    "LoanAmount",
+    "DownPayment",
+    "PMI",
+    "MonthlyPMI",
+    "MonthlyPayment",
+    "NbOfPayment",
+    "TotPayment"
+  ],
+  "GoalSeek": {
+    "Enabled": true,
+    "TargetRef": "MonthlyPayment",
+    "ChangingRef": "LoanAmount",
+    "TargetValue": 3000,
+    "MaxIterations": 1000,
+    "MaxChange": 1
+  },
+  "SessionId": null,
+  "FileVersion": null,
+  "SaveInformation": {
+    "Save": false,
+    "RecordId": null,
+    "UserName": "",
+    "SetRecordStatusIndex": null,
+    "SetGroupId": null,
+    "SetAssignedUserName": ""
+  }
+}
