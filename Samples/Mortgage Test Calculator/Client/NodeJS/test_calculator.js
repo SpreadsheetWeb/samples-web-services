@@ -9,7 +9,7 @@ var req = fs.readFileSync(goalSeek ? './request_goal_seek.json' : './request.jso
 
 // POST request options
 var options = {
-    host: 'calculators.pagos.com',
+    host: 'calc.spreadsheetweb.com',
     port: 443,
     path: '/Api/Applications/GetResult',
     method: 'POST',

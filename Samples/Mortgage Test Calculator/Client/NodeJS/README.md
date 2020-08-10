@@ -9,7 +9,7 @@ This folder contains Node.js sample client application which makes a [GetResult]
 ## How to run
 
 1. Install [Node.js](https://nodejs.org)
-2. Run the sample. It will connect to [calculators.pagos.com](https://calculators.pagos.com) and send the specific request.
+2. Run the sample. It will connect to [calc.spreadsheetweb.com](https://calc.spreadsheetweb.com) and send the specific request.
 
     - with simple request
     
