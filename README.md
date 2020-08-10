@@ -18,9 +18,9 @@ Alternatively, you can click the `Clone or Download` button on the GitHub page.
 
 ## How to run
 
-### Use a Web Service running at calculators.pagos.com
+### Use a Web Service running at calc.spreadsheetweb.com
 
-To make it easier for you we already uploaded MS Excel files from the samples to a [calculators.pagos.com](https://calculators.pagos.com), so you can quickly run client applications without a need of creating the Web Service by yourself. 
+To make it easier for you, we already uploaded MS Excel files from the samples to [calc.spreadsheetweb.com](https://calc.spreadsheetweb.com), so you can quickly run client applications without a need of creating the Web Service by yourself. 
 
 Just go to sample's *Client* directory to see how to launch them.
    
@@ -35,7 +35,7 @@ Independently, if you have an active [SpreadsheetWeb Server Package](https://www
     Drop the file into the corresponding box, as shown in the screenshot above.
 
 2. Submit the application to the SpreadsheetWeb system (i.e. *Save* button).
-4. Run client application in order to call the Web Service. You may use one of the examples from the *Client* folder, but please remember to modify the Web Service URL that the client sample is using (by default it tries to call [calculators.pagos.com](https://calculators.pagos.com), so if you have created your own Web Service, please edit the client's application code and replace the host "calculators.pagos.com" with your own URL).
+4. Run client application in order to call the Web Service. You may use one of the examples from the *Client* folder, but please remember to modify the Web Service URL that the client sample is using (by default it tries to call [calc.spreadsheetweb.com](https://calc.spreadsheetweb.com), so if you have created your own Web Service, please edit the client's application code and replace the host "calc.spreadsheetweb.com" with your own URL).
 
 
 
